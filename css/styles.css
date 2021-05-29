@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* HTML ELEMENTS */
+
 html, body {
   margin: auto;
   padding: auto;
@@ -344,10 +345,6 @@ p {
     width: 124px;
   }
 
-  /* #navlink {
-    margin-left: 40%;
-  } */
-
   #img3 {
     height: 500px;
   }
@@ -361,7 +358,22 @@ p {
   }
 }
 
+/* LG Version  */
+
+@media (max-width: 992px) {
+  #navbar2 {
+    padding-left: 780px;
+  }
+
+  #img3 {
+    height: 29.7rem;
+  }
+}
+
+/* iPad Version */
+
 @media (min-width: 600px) and (max-width: 768px) {
+
   html, body, section {
     margin: 0 !important;
     padding: 0 !important;
@@ -376,6 +388,7 @@ p {
   }
 
   /* Alert Bar Footer */
+
   .navbar-collapse {
     width: auto;
   }
@@ -385,11 +398,12 @@ p {
     padding-left: 0;
   }
 
-  #navlink {
-    margin-left: 40%;
+  .navbar-brand {
+    padding-left: 1rem;
   }
 
   /* more code here */
+
   #alert {
     margin-bottom: 0 !important;
   }
@@ -412,11 +426,13 @@ p {
   }
 
   /* Navigation Bar */
+
   .navbar-toggler {
     margin-left: 580px;
   }
 
   /* Images */
+
   #Images {
     margin: auto !important;
     padding: 1rem 1rem !important;
@@ -453,8 +469,21 @@ p {
   /* .mb-lg-0 {
     margin: 0 !important;
   } */
+
   /* Font Family */
-  h1, h2, h3, h4, h5, p, .fntfam2, .pfooter, .lblfont, .btnfont {
+  h1, h2, h3, h4, h5, .pfooter, .lblfont{
+    font-size: 1.5rem;
+  }
+
+  p, .fntfam2, .btnfont  {
+    font-size: 1rem;
+  }
+
+  #alert {
+    padding: 1rem 2.1rem;
+  }
+
+  .pfooter {
     font-size: 1rem;
   }
 
@@ -491,6 +520,7 @@ p {
 /* ================= iPad Version ==================== */
 /* Mobile Version */
 @media (max-width: 600px) {
+
   #navbartoggler {
     margin-left: 210px;
   }
@@ -509,21 +539,17 @@ p {
     width: 124px;
   }
 
-  #navlink {
-    margin-left: 30%;
-  }
-
   /* Font */
-  p, .fntfam2 {
-    font-size: 0.5rem;
+  p, .fntfam2, .btnfont {
+    font-size: 0.7rem;
   }
 
-  h5 {
+  h5, .padtxtbot {
     font-size: 1.2rem;
   }
 
-  .fntfam3, h2 {
-    font-size: 2rem;
+  .fntfam3 {
+    font-size: 1.5rem;
   }
 
   /* Carousel  */
@@ -538,6 +564,10 @@ p {
   /* OUR RESTAURANT SECTION */
   .padtbrem2 {
     padding: 3rem 2rem;
+  }
+
+  #contact-opening {
+    padding: 0;
   }
 
   /* MENU SECTION */
@@ -580,6 +610,10 @@ p {
     margin-left: 8%;
     font-size: 1rem;
   }
+
+  .form-row {
+    padding: 0 10%;
+  }
 }
 
 /* ================= iPhone X Screen ======================== */
@@ -600,13 +634,9 @@ p {
     width: 124px;
   }
 
-  #navlink {
-    margin-left: 30%;
-  }
-
   /* Font */
   p, .fntfam2 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
   }
 
   h5 {
@@ -670,5 +700,25 @@ p {
 
   .mr-6 {
     padding-left: 30px;
+  }
+
+  .padtbrem2 {
+    padding: 7% 7%;
+  }
+
+  #carousel-image1 {
+    height: 300px;
+  }
+
+  .h-100 {
+    height: 300px !important;
+  }
+
+  .pfooter {
+    font-size: 0.5rem;
+  }
+
+  .btn-lg {
+    font-size: 0.5rem;
   }
 }
