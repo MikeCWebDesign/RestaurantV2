@@ -123,6 +123,7 @@ p {
 }
 
 /* Background */
+
 #bgcol {
   position: relative;
   top: 5px;
@@ -155,6 +156,7 @@ p {
 }
 
 /* Indicator Colour */
+
 .carousel-control-prev {
   color: blue;
 }
@@ -261,6 +263,10 @@ p {
   padding: 2%;
 }
 
+#navbarsExample03 {
+  padding: 0 25%;
+}
+
 /* ===============================================================================
 ===============================================================================
 =============================================================================== */
@@ -288,7 +294,7 @@ p {
   }
 
   #btn1 {
-    padding: 2rem 12px 1rem;
+    padding: 2rem 0 1rem;
     text-align: center;
   }
 
@@ -607,12 +613,11 @@ p {
   }
 
   #btn {
-    margin-left: 8%;
     font-size: 1rem;
   }
 
   .form-row {
-    padding: 0 10%;
+    padding: 0 25%;
   }
 }
 
@@ -690,7 +695,6 @@ p {
   }
 
   #btn {
-    margin-left: 20%;
     font-size: 0.8rem;
   }
 
