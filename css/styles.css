@@ -721,4 +721,8 @@ p {
   .btn-lg {
     font-size: 0.5rem;
   }
+
+  #form-row {
+    width: 100%;
+  }
 }
